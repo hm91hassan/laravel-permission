@@ -7,9 +7,7 @@
     "auth",
     "roles",
     "acl",
-    "permission",
-    "Luovahost",
-    "luova laravel permission"
+    "permission"
   ],
   "license": "MIT",
   "authors": [
@@ -35,16 +33,16 @@
       "src/commands"
     ],
     "psr-4": {
-      "Luova\\Entrust\\": "src/Entrust/"
+      "Zizaco\\Entrust\\": "src/Entrust/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Luova\\Entrust\\EntrustServiceProvider"
+        "Zizaco\\Entrust\\EntrustServiceProvider"
       ],
       "aliases": {
-        "Entrust": "Luova\\Entrust\\EntrustFacade"
+        "Entrust": "Zizaco\\Entrust\\EntrustFacade"
       }
     }
   },
